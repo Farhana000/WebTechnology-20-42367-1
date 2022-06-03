@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 1</title>
+</head>
+<body>
+
+	<form>
+	
+		<p style="color:red;">Doner Information</p>
+		<span style="color:red;">*</span>
+		First Name <input type="text" name="name" value="" />
+		<span style="color:red;">*</span>
+		Last Name <input type="text" name="name" value="" /></br>
+		Company <input type="text" name="company" value="" /></br>
+		Address 1 <input type="text" name="address" value="" /></br>
+		Address 2 <input type="text" name="address" value="" /></br>
+		City <input type="text" name="city" value="" /></br>
+		State <select>
+		      <option value="">Select a state</option>
+			  </select></br>
+		Zip Code <input type="text" name="code" value="" /></br>
+		Country <select>
+		      <option value="">Select a country</option>
+			  </select></br>
+		Phone <input type="number" name="number" value="" /></br>
+		Fax <input type="number" name="number" value="" /></br>
+		Email <input type="text" name="mail" value="" /></br>
+		Donation Amount 
+			<input type="radio" name="da" value="" />None
+			<input type="radio" name="da" value="" />$50
+			<input type="radio" name="da" value="" />$75
+			<input type="radio" name="da" value="" />$100
+			<input type="radio" name="da" value="" />$250
+			<input type="radio" name="da" value="" />Other</br>
+		Other Amount $ <input type="text" name="amount" value="" /></br>
+		Recurring Donation <input type="checkbox" name="rd" value="" />I am interested in giving a regular basis.</br>
+		Monthly Credit Card $ <input type="text" name="number" />For <input type="text" name="number" />Months </br>
+		
+		<p style="color:red;">Honorarium and Memorial Donation Information</p></br>
+		I would like to make this <input type="radio" name="nm"/>To Honour
+		donation <input type="radio" name="nm"/>In Memory of</br>
+		Name <input type="text" name="name" value="" /></br>
+		Acknowledge Donation to <input type="text" name="name" value="" /></br>
+		Address <input type="text" name="address" value="" /></br>
+		City <input type="text" name="city" value="" /></br>
+		State <select>
+		      <option value="">Select a state</option>
+			  </select></br>
+		Zip <input type="text" name="zip" value="" /></br>
+		
+		<p style="color:red;">Additional Information</p></br>
+		<p>Please enter your name, company or organization as you would like to appear in our publications:</p>
+		Name <input type="text" name="name" value=""/></br>
+		<input type="checkbox" name="time" value="" />I would like my gift to remain anonymous.</br>
+		<input type="checkbox" name="time" value="" />My employer offers a matching gift program. I will mail the matching gift form.</br>
+		<input type="checkbox" name="time" value="" />Please save the cost of acknowledging this gift by not mailing a thank you letter.</br>
+		Comments<textarea></textarea></br>
+		How may we contact yoy?
+			<input type="checkbox" name="ad" value="" />E-mail</br>
+			<input type="checkbox" name="ad" value="" />Postal Mail</br>
+			<input type="checkbox" name="ad" value="" />Telephone</br>
+			<input type="checkbox" name="ad" value="" />fax</br>
+		<p hidden>I would like tp recieve newsletters and information about special events by : </p></br>
+		<input type="checkbox" name="." value="" />E-mail</br>
+		<input type="checkbox" name="." value="" />Postal Mail</br>
+		<input type="checkbox" name="seperate" value="" />I would like information about volunteering with the </br>
+		<input type="reset" name="reset" value="Reset" />
+		<input type="continue" name="continue" value="Continue" />
+		
+		
+		
+		
+		
+		
+	</form>
+
+</body>
+</html>
